@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Прапори</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<main>
+  <audio id="buttonSound" src="sounds/dragon-studio-pop-402324.mp3"></audio>
+  <audio id="music" controls src="sounds/absolutesound-background-relaxing-music-561056.mp3" autoplay loop></audio>
+  <h1>Якої країни цей прапор?</h1>
+  <section class="container1">
+    <div id="display"></div>
+  </section>
+  <section class="container2">
+    <fieldset class="timeLeft">
+      <legend>Залишилось часу:</legend>
+      <div id="timeLeft"></div>
+    </fieldset>
+    <button type="button" id="button">Почати гру!</button>
+    <fieldset class="score">
+      <legend>Рахунок:</legend>
+      <div id="score"></div>
+    </fieldset>
+  </section>
+  <h3>Обери правильну відповідь:</h3>
+  <section class="container3">
+    <div id="section1"></div>
+    <div id="section2"></div>
+    <div id="section3"></div>
+    <div id="section4"></div>
+  </section>
+  <section>
+    <button class="return"><a href="index.html">Повернутись до головного меню</a></button>
+  </section>
+</main>
+<script src="javascript.js"></script>
+</body>
+</html>
+
