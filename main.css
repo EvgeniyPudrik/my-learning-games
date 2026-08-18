@@ -100,7 +100,6 @@ h3 {
   }
   main {
     display: flex;
-    background-color: sandybrown;
     border-radius: 10px;
     flex-direction: column;
     justify-content: center;
